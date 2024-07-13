@@ -13,5 +13,15 @@ let humanScore = 0;
 let computerScore = 0;
 
 function playRound(humanChoice, computerChoice) {
-
+    if (humanChoice === computerChoice) {
+        if (humanChoice = "scissors") {
+             return "It's a tie. Both choose scissors!"
+        }
+        if (humanChoice = "rock") {
+            return "It's a tie. Both choose rock!"
+        }
+        if (humanChoice = "paper") {
+            return "It's a tie. Both choose paper!"
+        }
+    }
 }
